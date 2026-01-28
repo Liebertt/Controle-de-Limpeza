@@ -7,19 +7,21 @@ export const CHECKLIST_DATA: ChecklistItem[] = [
   { id: 'op-d-2', areaType: AreaType.OPERATIONAL, frequency: Frequency.DAILY, description: 'Limpar cestos de lixo e lixeiras de coleta seletiva (livres de detritos até 2/3 do volume). Remoção de pó e manchas.' },
   { id: 'op-d-3', areaType: AreaType.OPERATIONAL, frequency: Frequency.DAILY, description: 'Limpeza de geladeiras, micro-ondas, mesas, cadeiras e pias na copa.' },
   { id: 'op-d-4', areaType: AreaType.OPERATIONAL, frequency: Frequency.DAILY, description: 'Remover pó e manchas de mesas, armários, arquivos, peitoris e telefones (sem produtos alérgicos).' },
+  { id: 'op-d-5', areaType: AreaType.OPERATIONAL, frequency: Frequency.DAILY, description: 'Sanitários: Limpeza completa, desinfecção e reposição de insumos.' },
+  { id: 'op-d-6', areaType: AreaType.OPERATIONAL, frequency: Frequency.DAILY, description: 'Vestiários: Limpeza de pisos, bancos, armários e área de banho.' },
   { id: 'op-d-7', areaType: AreaType.OPERATIONAL, frequency: Frequency.DAILY, description: 'Varrer e remover manchas em todo o piso.' },
   { id: 'op-d-8', areaType: AreaType.OPERATIONAL, frequency: Frequency.DAILY, description: 'Limpar forno de micro-ondas internamente.' },
   { id: 'op-d-9', areaType: AreaType.OPERATIONAL, frequency: Frequency.DAILY, description: 'Desinfetar telefones com produto adequado.' },
   { id: 'op-d-10', areaType: AreaType.OPERATIONAL, frequency: Frequency.DAILY, description: 'Limpar e higienizar bebedouros.' },
   { id: 'op-d-11', areaType: AreaType.OPERATIONAL, frequency: Frequency.DAILY, description: 'Limpar paredes, muretas, pilares, portas, vidros e acrílicos.' },
-  
+
   // SALAS OPERACIONAIS - SEMANAL
   { id: 'op-s-1', areaType: AreaType.OPERATIONAL, frequency: Frequency.WEEKLY, description: 'Realizar a limpeza profunda das lixeiras.' },
-  
+
   // SALAS OPERACIONAIS - QUINZENAL
   { id: 'op-q-1', areaType: AreaType.OPERATIONAL, frequency: Frequency.QUINZENAL, description: 'Lavar paredes, muretas e pilares.' },
   { id: 'op-q-2', areaType: AreaType.OPERATIONAL, frequency: Frequency.QUINZENAL, description: 'Lavar e encerar pisos emborrachados.' },
-  
+
   // SALAS OPERACIONAIS - MENSAL
   { id: 'op-m-1', areaType: AreaType.OPERATIONAL, frequency: Frequency.MONTHLY, description: 'Remover pó das saídas de ar-condicionado, exaustores e ventiladores.' },
   { id: 'op-m-2', areaType: AreaType.OPERATIONAL, frequency: Frequency.MONTHLY, description: 'Limpeza da tela filtro de ar-condicionado (abaixo de 4m).' },
@@ -31,6 +33,7 @@ export const CHECKLIST_DATA: ChecklistItem[] = [
   { id: 'ad-d-1', areaType: AreaType.ADMINISTRATIVE, frequency: Frequency.DAILY, description: 'Limpar cestos de lixo e lixeiras de coleta seletiva.' },
   { id: 'ad-d-2', areaType: AreaType.ADMINISTRATIVE, frequency: Frequency.DAILY, description: 'Higienizar geladeiras, purificadores, micro-ondas, mesas e pias da copa.' },
   { id: 'ad-d-3', areaType: AreaType.ADMINISTRATIVE, frequency: Frequency.DAILY, description: 'Remover pó e manchas de móveis administrativos e telefones.' },
+  { id: 'ad-d-4', areaType: AreaType.ADMINISTRATIVE, frequency: Frequency.DAILY, description: 'Limpar equipamentos de informática (monitores, teclados, impressoras) com produto específico.' },
   { id: 'ad-d-5', areaType: AreaType.ADMINISTRATIVE, frequency: Frequency.DAILY, description: 'Varrer e recolher detritos e gomas de mascar do piso.' },
   { id: 'ad-d-6', areaType: AreaType.ADMINISTRATIVE, frequency: Frequency.DAILY, description: 'Sanitários: Varrer, desinfetar e repor insumos constantemente.' },
   { id: 'ad-d-7', areaType: AreaType.ADMINISTRATIVE, frequency: Frequency.DAILY, description: 'Sanitários: Lavar boxes, espelhos, assentos e mictórios no mínimo a cada turno.' },

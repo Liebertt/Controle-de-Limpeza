@@ -26,8 +26,8 @@ const getEnvironmentVariable = (key: string): string => {
   return (window as any)._env_?.[key] || '';
 };
 
-const supabaseUrl = getEnvironmentVariable('NEXT_PUBLIC_SUPABASE_URL');
-const supabaseKey = getEnvironmentVariable('NEXT_PUBLIC_SUPABASE_ANON_KEY');
+const supabaseUrl = getEnvironmentVariable('VITE_SUPABASE_URL');
+const supabaseKey = getEnvironmentVariable('VITE_SUPABASE_ANON_KEY');
 
 export const isSupabaseConfigured = !!(supabaseUrl && supabaseKey);
 
