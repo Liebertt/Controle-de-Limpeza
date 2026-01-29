@@ -1,0 +1,7 @@
+{
+  "name": "Sistema de Avaliação de Limpeza CPTM",
+  "description": "Uma plataforma profissional para gestão e avaliação técnica de serviços de limpeza em áreas operacionais e administrativas.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
